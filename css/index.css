@@ -88,3 +88,25 @@ nav .signin-btn {
   bottom: 90px;
   right: 50px;
 }
+nav .fa-bars {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 720px) {
+  nav .nav-items,
+  nav button {
+    display: none;
+  }
+  nav .fa-bars {
+    display: block;
+  }
+  .intro-section {
+    flex-direction: column;
+  }
+  .imgs-div {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+  }
+}
